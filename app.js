@@ -1,6 +1,6 @@
-let btn = document.getElementById("btn");
+let signUpBtn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {
+signUpBtn.addEventListener("click", () => {
    let login = document.getElementById("login").value;
    let password = document.getElementById("password").value;
    let confirmPassword = document.getElementById("confirmPassword").value;
